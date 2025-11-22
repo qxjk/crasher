@@ -1,0 +1,27 @@
+{
+	"name": "crasher",
+	"description": "description",
+	"author": "author",
+	"contact": "contact",
+	"version": "1.0",
+    "blt_version" : 2
+	"keybinds": [
+		{
+			"keybind_id": "crasher",
+			"name": "crasher",
+			"description": "crasher",
+			"script_path": "crasher.lua",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		}
+	]
+  "updates": [
+    {
+      "identifier": "crasher",
+      "host": {
+        "meta": "https://raw.githubusercontent.com/qxjk/crasher/main/meta.json"
+      }
+    }
+  ]
+}
